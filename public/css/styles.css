@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+    background: rgb(15, 15, 31);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(61, 61, 61); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(127, 255, 212); 
+    border-radius: 10px;
+  }
+  
+  /* Parte fixa da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: black ; 
+  }
+  
+  /* O próprio scrollbar (incluindo thumb e track) */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }

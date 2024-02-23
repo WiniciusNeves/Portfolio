@@ -1,0 +1,60 @@
+.container-console{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(61, 61, 61);
+    width: 90vw;
+    height: 25vh;
+    color: white;
+    position: fixed;
+    bottom: 1rem;
+    left: 20.2rem;
+}
+.container-console span {
+    color: rgb(143, 143, 143);
+    padding-left: 10px;
+}
+.container-console span:hover {
+    color: rgb(127, 255, 212);
+}
+#consolenhi {
+    color: rgb(121, 121, 121);
+}
+
+#console-escrita {
+    background: black;
+    padding-left: 10px;
+}
+
+.node,
+.node1,
+.node2 {
+    background-color: black;
+    padding: 5px;
+    margin: 2px;
+}
+
+.node {
+    color: rgb(255, 220, 104);
+}
+
+.node1 {
+    color: rgb(72, 161, 72);
+}
+
+.node2 {
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 1000px) {
+    .container-console {
+        position: fixed;
+        bottom: 1rem;
+        left: 3.1rem;
+        width: 100vw;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .container-console {
+        display: none;
+    }
+    
+}

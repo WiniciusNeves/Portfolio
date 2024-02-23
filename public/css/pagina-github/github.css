@@ -1,0 +1,98 @@
+.container-github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'fire code', monospace;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 20px;
+    position: relative;
+    top: 5rem;
+    left: 25rem;
+    width: 75vw;
+    height: auto;
+    color: white;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.container-github h3 {
+    color: rgb(143, 143, 143);
+    position: relative;
+    right: 25rem;
+}
+
+.profile-info {
+    position: relative;
+    right: 10rem;
+}
+
+li a,
+.container-github a{
+    color: aquamarine;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+    .container-github{
+        width: 50rem;
+        
+    }
+    .banner{
+        width: 40rem;
+    }
+    .profile-info{
+        position: relative;
+        right: 0.1rem;
+        padding-left: 10px;
+    }
+    .container-github h3{
+        position: relative;
+        right: 15rem;
+    }
+    .stats{
+        position: relative;
+        left: 10rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container-github{
+        position: relative;
+        left: 7rem;
+        width: 40rem;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .container-github h3{
+        position: relative;
+        right: 10rem;
+    }
+    .stats{
+        position: relative;
+        left: 5rem;
+    }
+    
+}
+
+@media screen and (max-width: 790px) {
+    .container-github{
+        position: relative;
+        left: 1rem;
+        width: 25rem;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .container-github h3{
+        position: relative;
+        right: 7rem;
+    }
+    .stats,
+    .Streak{
+        display: none;   
+    }
+    
+}
