@@ -194,9 +194,23 @@
 
     #hard-skills3 {
         position: fixed;
-        top: 30rem;
+        top: 27rem;
         left: -2rem;
-        
+    }
+    #baixo{
+        position: fixed;
+        top: 31rem;
+    }
+    .container-icones{
+        position: fixed;
+        bottom: 0rem;
+        overflow: hidden;
+        object-fit: cover;
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     }

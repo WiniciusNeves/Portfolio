@@ -43,10 +43,18 @@
 .node2 {
     color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 1280px) {
+    .container-console {
+        display: none;
+    }
+    
+}
+
 @media screen and (max-width: 1000px) {
     .container-console {
         position: fixed;
-        bottom: 1rem;
+        bottom: 2rem;
         left: 3.1rem;
         width: 100vw;
     }
